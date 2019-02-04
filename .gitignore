@@ -17,3 +17,6 @@ src/Debug
 src/x64
 src/arm64
 .vs
+
+/setup.inf
+/setup.rpt

@@ -377,7 +377,7 @@ class BuildTAPWindows(object):
     def clean(self):
         self.clean_tree(self.src)
         self.clean_tree(self.dist_path())
-        if not self.using_prebuilt_tapinstall:
+        if self.top_tapinstall and not self.using_prebuilt_tapinstall:
             self.clean_tree(self.top_tapinstall)
 
     # Calculate tapinstall.exe file names

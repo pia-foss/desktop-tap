@@ -132,6 +132,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
     <TargetName>@PRODUCT_TAP_WIN_COMPONENT_ID@</TargetName>
+    <Inf2CatWindowsVersionList>Vista_X86,Server2008_X86,7_X86,8_X86,6_3_X86,10_X86</Inf2CatWindowsVersionList>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Hlk|Win32'">
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
@@ -140,10 +141,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
     <TargetName>@PRODUCT_TAP_WIN_COMPONENT_ID@</TargetName>
+    <Inf2CatWindowsVersionList>Vista_X86,Server2008_X86,7_X86,8_X86,6_3_X86,10_X86</Inf2CatWindowsVersionList>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
     <TargetName>@PRODUCT_TAP_WIN_COMPONENT_ID@</TargetName>
+    <Inf2CatWindowsVersionList>Vista_X64,Server2008_X64,7_X64,8_X64,6_3_X64,10_X64,Server2008R2_X64,Server8_X64,Server10_X64</Inf2CatWindowsVersionList>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Hlk|x64'">
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
@@ -154,6 +157,7 @@
     <TargetName>@PRODUCT_TAP_WIN_COMPONENT_ID@</TargetName>
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <CodeAnalysisRuleSet>$(WDKContentRoot)CodeAnalysis\DriverMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Inf2CatWindowsVersionList>Vista_X64,Server2008_X64,7_X64,8_X64,6_3_X64,10_X64,Server2008R2_X64,Server8_X64,Server10_X64</Inf2CatWindowsVersionList>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>

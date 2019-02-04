@@ -22,3 +22,7 @@ The tap-windows.h file has been released under the MIT
 license (see COPYRIGHT.MIT) as well as under GPLv2 (see
 COPYRIGHT.GPL). This has been done to allow the use of the
 header file in non-GPLv2 compatible projects.
+
+
+Modifications are Copyright (C) 2019 London Trust Media, Inc.
+and released under the GPL version 2.
